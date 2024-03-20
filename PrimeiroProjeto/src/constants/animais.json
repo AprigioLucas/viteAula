@@ -1,0 +1,18 @@
+[
+    {
+        "id" :1,
+        "name": "Coruja",
+        "desc": "Animal de estimação",
+        "value":"10000.00",
+        "image": "../src/images/coruja.jpg"
+
+    },
+    {
+        "id" :2,
+        "name": "Cachorro",
+        "desc": "Animal de estimação",
+        "value":"1000.00",
+        "image": "../src/images/cachorro.avif"
+
+    }
+]
