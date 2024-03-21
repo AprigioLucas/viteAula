@@ -12,7 +12,7 @@ import {
     Pie,
     Cell,
     BarChart,
-    Bar
+    Bar,
   } from "recharts";
 
 export default function Graficos(props){

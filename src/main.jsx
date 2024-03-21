@@ -1,24 +1,29 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Home } from './Home.jsx'
-import {Carrousel} from './Carrousel.jsx'
+import { Consumo } from './Consumo.jsx'
+import { Carrousel } from './Carrousel.jsx'
+import { RickAndMorty } from './RickAndMorty.jsx'
 import './index.css'
 
-import {createBrowserRouter, RouterProvider} from "react-router-dom"
-import { Consumo } from './Consumo.jsx'
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Home />,
   },
   {
     path: "/Consumo",
-    element: <Consumo/>,
+    element: <Consumo />,
   },
   {
     path: "/Carrousel",
-    element: <Carrousel/>,
+    element: <Carrousel />,
+  },
+  {
+    path: "/Rm",
+    element: <RickAndMorty />,
   },
 ]);
 
